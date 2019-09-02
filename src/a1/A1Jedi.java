@@ -98,10 +98,10 @@ public class A1Jedi {
             customerAmt[i] = String.valueOf(totalCustomers[i]);
             customerTotal[i] = String.valueOf(totalItems[i]);
             if (customerAmt[i].equals("0") || customerTotal[i].equals("0")) {
-                System.out.println("No customer bought " + itemId[i]);
+                System.out.println("No customers bought " + itemId[i]);
             }
             else {
-                System.out.println(customerAmt[i] + " customer bought " + customerTotal[i] + " " + itemId[i]);
+                System.out.println(customerAmt[i] + " customers bought " + customerTotal[i] + " " + itemId[i]);
             }
         }
 		
